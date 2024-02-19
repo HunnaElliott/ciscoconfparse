@@ -55,25 +55,9 @@ include = [
 ]
 exclude = [
     "coverage.json"
-]
-keywords = ["Parse", "audit", "query", "modify", "Cisco IOS", "Cisco", "NXOS", "ASA", "Juniper"]
-classifiers=[
-    "Development Status :: 5 - Production/Stable",
-    "Environment :: Plugins",
-    "Intended Audience :: Developers",
-    "Intended Audience :: System Administrators",
-    "Intended Audience :: Information Technology",
-    "Intended Audience :: Telecommunications Industry",
-    "License :: OSI Approved :: GNU General Public License (GPL)",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-    "Natural Language :: English",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python",
-    "Topic :: Communications",
-    "Topic :: Internet",
-    "Topic :: System :: Networking",
-    "Topic :: System :: Networking :: Monitoring",
-]
+    :J.SON OPEN LOG://
+:: = exclude data log
+  version = "1.9.50"
 
 # Do NOT remove this... requirements.txt is not sufficient for dependencies
 [tool.poetry.dependencies]
